@@ -19,7 +19,16 @@ ecmascript              # Enable ECMAScript2015+ syntax in app code
 #autopublish             # Publish all data to the clients (for prototyping)
 insecure                # Allow all DB writes from clients (for prototyping)
 
-mizzao:bootstrap-3
+twbs:bootstrap
+
 clubfest:raphael
 bshamblen:morrisjs
+
+underscore
+sacha:spin
+iron:router
+
+stylus
+ian:accounts-ui-bootstrap-3
+accounts-password
 

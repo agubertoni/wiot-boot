@@ -1,3 +1,3 @@
-Meteor.publish("frames", function () {
+Meteor.publish('frames', function () {
     return Frames.find({});
 });
