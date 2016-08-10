@@ -6,9 +6,11 @@
     -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15); }
+
 body {
     background: #eee;
     color: #666666; }
+
 #main {
     position: relative;
 }
@@ -17,13 +19,16 @@ body {
     top: 0px;
     width: 100%;
 }
+
 .navbar {
     margin-bottom: 10px; }
 /* line 32, ../sass/style.scss */
 .navbar .navbar-inner {
     border-radius: 0px 0px 3px 3px; }
+
 #spinner {
     height: 300px; }
+
 .post {
     /* For modern browsers */
     /* For IE 6/7 (trigger hasLayout) */
@@ -71,6 +76,7 @@ body {
     display: block;
     float: right;
     margin-top: 7px; }
+
 .comments {
     list-style-type: none;
     margin: 0; }
@@ -84,14 +90,15 @@ body {
     font-size: 12px; }
 .comments li p:last-child {
     margin-bottom: 0; }
+
 .dropdown-menu span {
     display: block;
-
     padding: 3px 20px;
     clear: both;
     line-height: 20px;
     color: #bbb;
     white-space: nowrap; }
+
 .load-more {
     display: block;
     border-radius: 3px;
@@ -103,10 +110,12 @@ body {
 .load-more:hover {
     text-decoration: none;
     background: rgba(0, 0, 0, 0.1); }
+
 .posts .spinner-container{
     position: relative;
     height: 100px;
 }
+
 .jumbotron{
     text-align: center;
 }
@@ -114,18 +123,21 @@ body {
     font-size: 60px;
     font-weight: 100;
 }
+
 @-webkit-keyframes fadeOut {
     0% {opacity: 0;}
     10% {opacity: 1;}
     90% {opacity: 1;}
     100% {opacity: 0;}
 }
+
 @keyframes fadeOut {
     0% {opacity: 0;}
     10% {opacity: 1;}
     90% {opacity: 1;}
     100% {opacity: 0;}
 }
+
 .errors{
     position: fixed;
     z-index: 10000;

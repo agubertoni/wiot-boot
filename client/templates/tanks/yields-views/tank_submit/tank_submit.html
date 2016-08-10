@@ -1,17 +1,27 @@
 <template name="tankSubmit">
     <form class="main form page">
+
         <div class="form-group">
-            <label class="control-label" for="url">URL</label>
+            <label class="control-label" for="url">Tank</label>
             <div class="controls">
-                <input name="url" id="url" type="text" value="" placeholder="Your URL" class="form-control"/>
+                <input name="tankid" id="tankid" type="text" value="" placeholder="What is the tank number?" class="form-control"/>
             </div>
         </div>
+
         <div class="form-group">
-            <label class="control-label" for="title">Title</label>
+            <label class="control-label" for="title">Wine</label>
             <div class="controls">
-                <input name="title" id="title" type="text" value="" placeholder="Name your post" class="form-control"/>
+                <input name="wine" id="wine" type="text" value="" placeholder="Which grape?" class="form-control"/>
             </div>
         </div>
-        <input type="submit" value="Submit" class="btn btn-primary"/>
+
+        <div class="form-group">
+            <label class="control-label" for="title">Vineyard</label>
+            <div class="controls">
+                <input name="vineyard" id="vineyard" type="text" value="" placeholder="From what vineyard?" class="form-control"/>
+            </div>
+        </div>
+
+        <input type="submit" value="Add Tank" class="btn btn-primary"/>
     </form>
 </template>
